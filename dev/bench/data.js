@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1605078599991,
-  "repoUrl": "https://github.com/OpenMined/PySyft",
+  "lastUpdate": 1608327509140,
+  "repoUrl": "https://github.com/wip-abramson/PySyft",
   "entries": {
     "Python Benchmark with pytestbenchmark": [
       {
@@ -413,6 +413,39 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.03200058814810675",
             "extra": "mean: 1.4752609082000163 sec\nrounds: 5"
+          }
+        ]
+      }
+    ],
+    "Pytest-benchmarks": [
+      {
+        "commit": {
+          "author": {
+            "email": "wip.abramson@gmail.com",
+            "name": "wip-abramson",
+            "username": "wip-abramson"
+          },
+          "committer": {
+            "email": "wip.abramson@gmail.com",
+            "name": "wip-abramson",
+            "username": "wip-abramson"
+          },
+          "distinct": true,
+          "id": "c6bb296107fca6f314ad9ef5d88b299014f7bad1",
+          "message": "update duet server code",
+          "timestamp": "2020-12-18T17:36:44Z",
+          "tree_id": "cf503a699bcebc3ec43b23d539d56db2ce9558ba",
+          "url": "https://github.com/wip-abramson/PySyft/commit/c6bb296107fca6f314ad9ef5d88b299014f7bad1"
+        },
+        "date": 1608327507406,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/benchmarks/pytest_benchmarks/bench_test.py::test_string_serde",
+            "value": 1230.6626151452056,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011538664025540057",
+            "extra": "mean: 812.5703890680146 usec\nrounds: 622"
           }
         ]
       }
