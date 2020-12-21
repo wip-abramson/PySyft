@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1608327509140,
+  "lastUpdate": 1608566331548,
   "repoUrl": "https://github.com/wip-abramson/PySyft",
   "entries": {
     "Python Benchmark with pytestbenchmark": [
@@ -446,6 +446,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011538664025540057",
             "extra": "mean: 812.5703890680146 usec\nrounds: 622"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wip.abramson@gmail.com",
+            "name": "wip-abramson",
+            "username": "wip-abramson"
+          },
+          "committer": {
+            "email": "wip.abramson@gmail.com",
+            "name": "wip-abramson",
+            "username": "wip-abramson"
+          },
+          "distinct": true,
+          "id": "c037156af24a276eeb2e0dda1548fb1361bb4647",
+          "message": "Mostly working AriesCredExchanger in notebooks, some msg queueing issues",
+          "timestamp": "2020-12-21T15:10:08Z",
+          "tree_id": "74d7c1e98017cc1d814be38612c43bfb3cf751b5",
+          "url": "https://github.com/wip-abramson/PySyft/commit/c037156af24a276eeb2e0dda1548fb1361bb4647"
+        },
+        "date": 1608566329848,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/benchmarks/pytest_benchmarks/bench_test.py::test_string_serde",
+            "value": 1156.9905946720223,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00018802302910295068",
+            "extra": "mean: 864.3112611330041 usec\nrounds: 494"
           }
         ]
       }
