@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1608566331548,
+  "lastUpdate": 1609176420658,
   "repoUrl": "https://github.com/wip-abramson/PySyft",
   "entries": {
     "Python Benchmark with pytestbenchmark": [
@@ -477,6 +477,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00018802302910295068",
             "extra": "mean: 864.3112611330041 usec\nrounds: 494"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wip.abramson@gmail.com",
+            "name": "wip-abramson",
+            "username": "wip-abramson"
+          },
+          "committer": {
+            "email": "wip.abramson@gmail.com",
+            "name": "wip-abramson",
+            "username": "wip-abramson"
+          },
+          "distinct": true,
+          "id": "7bef535681c6dac5ac4f5368d22ab8404812fb4f",
+          "message": "refactor AriesExchanger and remove old notebooks",
+          "timestamp": "2020-12-28T16:40:23Z",
+          "tree_id": "db03a14481eb5c6e4a1238b0642675afbad938c7",
+          "url": "https://github.com/wip-abramson/PySyft/commit/7bef535681c6dac5ac4f5368d22ab8404812fb4f"
+        },
+        "date": 1609176419699,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "tests/benchmarks/pytest_benchmarks/bench_test.py::test_string_serde",
+            "value": 1416.7105400876262,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009748485903712404",
+            "extra": "mean: 705.860492813266 usec\nrounds: 696"
           }
         ]
       }
